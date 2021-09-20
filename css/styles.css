@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&display=swap');
+
+
+*{
+    padding:0px;
+    margin:0px;
+}
+.background{
+    background:url(../transfer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+.navbar li{
+    list-style: none;
+    padding:0px 10px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    font-family: 'Grechen Fuemen', cursive;
+    color: white;
+
+}
+.navbar{
+    background: lightslategray;
+    padding: 10px;
+    display: flex;
+    height:20px;
+}
+.logo{
+    width: 50%;
+    margin-left:50px;
+    font-family:  'Gluten', cursive;
+    display: flex;
+    align-items: center;
+}
+.m{
+    color:red;
+}
+.e{
+    color: yellow;
+}
+.g{
+    color:#fd00ff;
+}
+.a{
+    color:#01ff01;
+}
+.navbar li:hover{
+    background-color: azure;
+    border-style: none;
+    border:2px solid azure;
+    border-radius:10px;
+
+    
+}
+.navbar li a:hover{
+    color:black;
+}
+
+/* center page */
+.btn{
+    text-align: center;
+    border:3px solid rgb(230, 100, 100);
+    border-radius: 6px;
+    background: rgb(230, 100, 100);
+    color:rgb(247, 245, 245);
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 5px;
+    margin:220px;
+  
+    
+  }
+  .btn:hover{
+    border:6px solid rgb(230, 100, 100);
+    border-radius: 8px;
+    transition: 0.03s;
+  }
+  .view{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .customers{
+    margin-top: -460px;
+    margin-left: 45px;
+    display: flex;
+    width: 493px;
+    align-items: flex-end;
+    flex-direction: column;
+    z-index: 1;
+    opacity: 1;
+ }
+  .customers table{
+    background: #e2e7fe;  
+   
+}
+.cancel img{
+    width: 24px;
+}
+.cancel{
+    display: flex;
+    align-items: end;
+    margin: 5px 0px;
+    opacity: 1;
+}
+
+.margin{
+  
+    margin-left: -150px;
+    width:10px;
+}
+.customers th{
+    text-transform: uppercase;
+    font-family: 'Gluten', cursive;
+}
+.customers table{
+    height: 410px;
+    width:493px;
+}
+.customers td{
+  
+    text-align: center;
+     font-family: 'Gluten', cursive;;
+}
+.upper{
+    text-transform: uppercase;
+}
+
+/* transfer page */
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.details th{
+    text-transform: uppercase;
+    color: black;
+}
+.details td{
+    text-align: center;
+    color: black;
+}
+.details table{
+    width:700px;
+    height: 354px;
+    background: url(../transferimg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.bg{
+    background: url(../transf.webp);
+    background-size: cover;
+}
+
+/* transfer */
+.parlogo img{
+    width:230px;
+}
+.parlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 451px;
+    border: 2px solid lightblue;
+    border-radius: 42px;
+    background: lightblue;
+    margin-top: -321px;
+    position: absolute;
+    opacity: 1;
+}
+.btns{
+    text-align: center;
+    border:3px solid rgb(230, 100, 100);
+    border-radius: 6px;
+    background: rgb(230, 100, 100);
+    color:rgb(247, 245, 245);
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    padding: 7px;
+    margin-left: 106px;
+    margin-bottom: 5px;
+}
+.parlogo table{
+    width: 315px;
+    height: 96px;
+}
+.parimage{
+    display: flex;
+}
+.cancelb img{
+    width: 24px;
+}
+.cancelb{
+    margin-top: 14px;
+}
+.visionoff{
+    opacity: 1;
+}
+.back{
+    background: lightblue;
+    border:2px solid lightblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.parlogo td{
+    
+    font-size: 15px;
+}
+
+/* amount */
+
+
+.amount-body{
+  background: lightblue;
+  background-size: cover;
+  font-family: 'Grechen Fuemen', cursive;
+}
+
+/* <select> styles */
+ .box select {
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: black;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: auto;
+  text-transform: uppercase;
+  
+ }
+  /* <option> colors */
+   .box option {
+    color: white;
+    background-color: #320a28;
+    text-transform: uppercase;
+    
+  }
+  /* Remove focus outline */
+  .box option:focus {
+    outline: none;
+  }
+  /* Remove IE arrow */
+  .box option::-ms-expand {
+    display: none;
+  }
+  .amnt-trans{
+    display: flex;
+    margin: 251px 0px;
+    justify-content: center;
+  }
+.box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+}
+.amnt-summit{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.pre-amnt-summit{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+#amount-enter{
+    background: transparent;
+    border: 2px solid olive;
+    width: 99px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.amnt-summit label{
+    padding: 10px 0px;
+}
+.btsn{
+width: 82px;
+margin-left: 0px;
+}
+.custom-select{
+    margin-bottom: 10px;;
+}
+.transfersuccessfull{
+    width: 244px;
+    background: linen;
+    text-align: center;
+    border: 2px solid linen;
+    border-radius: 9px;
+    z-index: 1;
+    opacity: 1;
+    margin-top: -448px;
+    margin-left: 530px;
+    
+    font-family: 'Carattere', cursive;
+    font-size: 21px;
+}
+
+.visionon{
+    opacity:0;
+}
+
+.transfersuccessfull img{
+    width: 123px;
+}
+.cancel-amount{
+    display: flex;
+    border: 2px solid linen;
+    justify-content: flex-end;
+    background: linen;
+
+
+}
+.cancel-amount img{
+    width:24px;
+    cursor: pointer;
+}
+
+#details {
+	border: 2px solid black;
+	background-color: transparent;
+	margin-top: 26px;
+	font-weight: bold;
+	overflow: auto;
+	flex: 1;
+	display: flex;
+}
+.date{
+    display: flex;
+}
+.time{
+    display:flex;
+}
+.datehead{
+    display: flex;
+    justify-content: center;
+    font-family: 'Carattere', cursive;
+    font-family: 'Gluten', cursive;
+}
+.timehead{
+    display: flex;
+    justify-content: center;
+    font-family: 'Carattere', cursive;
+    font-family: 'Gluten', cursive;
+}
+.timehead p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 17px;
+}
+.datehead p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.timehead h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+.datehead h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+/* histor */
+.history{
+    display: flex;
+    position: relative;
+    height: 240px;
+    justify-content: center;
+    margin-top: 160px;
+    font-family: 'Barlow', sans-serif;
+   
+
+}
+.history table{
+    overflow: auto;
+    display: flex;
+    background-color: lightblue;
+
+
+}
+.history th{
+    text-align: center;
+    border: 1px solid black;
+	border-collapse: collapse;
+
+}
+.history td{
+    text-align: center;
+    border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#search{
+    padding:3px;
+    border: 3px solid transparent;
+    border-radius: 6px;
+    background: rgb(0, 0, 0);
+    color:rgb(252, 248, 248);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:auto;
+    cursor: pointer;
+    
+}
+#searchno{ 
+    margin-right: 7px;
+    width:250px;/* Full width */
+    padding: 7px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+ /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  .search{
+    display: flex;
+    padding: 5px 13px;
+    justify-content: flex-end;
+  }
+  .bghis{
+    background: url(../history.jpg);
+    background-size: cover;
+}
+.history1{
+
+    height: auto;
+  
+   
+
+}
